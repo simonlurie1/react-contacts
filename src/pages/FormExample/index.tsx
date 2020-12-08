@@ -31,7 +31,7 @@ class FormExample extends React.Component<Props> {
 					{touched
 					&& ((error && <span>{error}</span>)
 						|| (warning && <span>{warning}</span>))}
-						x
+						y
 				</div>
 			</div>
 		);
