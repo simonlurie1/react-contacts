@@ -1,10 +1,11 @@
 enum RoutesPath {
-	ROOT = '/',
+	// ROOT = '/',
 	CHECKOUT = '/checkout',
 	FORM_EXAMPLE = '/form-example',
 	CHECKOUT_SAMSUNG = '/checkout-samsung',
 	CHECKOUT_XIAOMI = '/checkout-xiaomi',
-	ERROR_PAGE = '/error-page'
+	ERROR_PAGE = '/error-page',
+	CONTACT = '/'
 }
 
 export default RoutesPath;

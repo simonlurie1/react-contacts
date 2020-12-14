@@ -24,7 +24,7 @@ class Checkout extends React.Component<Props> {
 		const { cartItems, history } = this.props;
 
 		if (!cartItems || !cartItems.length) {
-			history.push(RoutesPath.ROOT);
+			// history.push(RoutesPath.ROOT);
 		}
 	}
 

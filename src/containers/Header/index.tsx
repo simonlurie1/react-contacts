@@ -56,7 +56,7 @@ class Header extends React.Component<Props, HeaderState> {
 					<div className="container">
 						<ul className="navbar-left">
 							<li>
-								<Link to={RoutesPath.ROOT}>Home</Link>
+								 x
 							</li>
 						</ul>
 

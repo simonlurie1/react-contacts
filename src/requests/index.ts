@@ -7,6 +7,7 @@ import { config } from 'config';
 import GenericMobileImage from '../actions/sagas/catalog/generic-mobile.jpg';
 import responseExample from '../actions/sagas/catalog/response_example.json';
 import { Device } from '../actions/redux/catalog/interfaces';
+import contactResponse from './Mocks/contactResponse.json';
 
 export const createApi = (baseURL = config.ROOT_SERVER_URL) => ({
 	getDevices: () => request.call({
@@ -26,7 +27,11 @@ export const createApi = (baseURL = config.ROOT_SERVER_URL) => ({
 		return {
 			data: mock
 		};
+	},
+	getContact: () => {
+		return contactResponse;
 	}
+
 });
 
 export default createApi();
